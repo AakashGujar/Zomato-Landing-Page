@@ -1,1 +1,3 @@
-#This is Zomato Home Page made using HTML and CSS
+#This is Zomato Landing Page
+
+#Made using HTML and CSS
