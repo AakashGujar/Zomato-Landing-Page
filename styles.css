@@ -1,9 +1,13 @@
+/* =====================UNIVERSAL==================================================================== */
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+/* =======================STYLING HERO SECTION========================================================== */
 
 .hero__section {
     background: url(images/heroSectionBackground.png);
@@ -89,7 +93,6 @@
     width: 65%;
 }
 
-/*----------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width:600px) {
     .navbar__menu_container .user_icon {
@@ -534,3 +537,162 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* =================================POPULAR LOCATION============================================== */
+
+.container__popularloc {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+    width: 90%;
+    gap: 1.2rem;
+}
+
+.container__popularloc h1 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.container__popularloc_contains {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.popularloc {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e0e0e0;
+    padding: 0.8rem 0.7rem;
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.popularloc h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.popularloc p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.popularloc .icons {
+    border: none;
+}
+
+.L9 {
+    align-items: center;
+    justify-content: center;
+}
+
+.container__popularloc_contains .popularloc i {
+    display: flex;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 20px;
+    height: 19px;
+    width: 19px;
+    justify-content: center;
+    align-items: center;
+    rotate: 270deg;
+}
+
+.Lp99 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ========================================EXPLORE SECTION================================================= */
+
+.container__explore_main {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 3rem;
+    width: 80%;
+}
+
+.container__explore_main h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 1rem 0rem;
+}
+
+.container__explore_contains {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container__explore {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1.3rem 1rem;
+}
+
+.eeblocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.eeblocks h3 {
+    font-weight: 400;
+
+}
+
+.eeblocks i {
+    display: flex;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 30px;
+    height: 29px;
+    width: 29px;
+    justify-content: center;
+    align-items: center;
+}
+
+.e1:hover .ed1 {
+    display: grid;
+}
+
+.e2:hover .ed2 {
+    display: grid;
+}
+
+.e3:hover .ed3 {
+    display: grid;
+}
+
+.explore_desc {
+    font-size: 15px;
+    color: #9f9992;
+    padding: 1rem 0;
+    letter-spacing: 1px;
+    display: none;
+}
+
+.ed3 {
+    display: none;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.ed3 a {
+    text-decoration: none;
+    color: #9f9992;
+}
+
+/* ================================================================================================================ */
