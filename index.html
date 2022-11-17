@@ -24,24 +24,26 @@
 
   <!-- importing styles.css -->
   <link rel="stylesheet" href="styles.css" />
-
   <title>Zomato Clone</title>
+
 </head>
 
 <body>
 
-  <!-- ==============================HERO SECTION======================================================= -->
+  <!-- ======================================HERO SECTION============================================================================================ -->
 
   <section class="hero__section">
+
     <header>
       <nav class="navbar">
         <a href="#">Get the App</a>
+
         <div class="navbar__menu_container">
-          <a href="#" class="link">Investor Relation</a>
-          <a href="#" class="link">Add Restaurant</a>
-          <a href="#" class="link">Login</a>
-          <a href="#" class="link">Sign-up</a>
-          <a href="#" class="user_icon">
+          <a class="link" href="#">Investor Relations</a>
+          <a class="link" href="#">Add Restaurants</a>
+          <a class="link" href="#">Log in</a>
+          <a class="link" href="#">Sign up</a>
+          <a class="user__icon" href="#">
             <i class="fa-solid fa-user"></i>
           </a>
         </div>
@@ -49,415 +51,411 @@
     </header>
 
     <div class="hero__section_container">
-      <img class="hero__section_logo" src="images/heroSectionLogo.png" alt="Zomato logo" />
+
+      <img class="hero__section_logo" src="images/heroSectionLogo.png" alt="Zomato logo">
+
       <h1 class="hero__section_title">Discover the best food & drinks in Mumbai</h1>
-      <div class="hero__section_input_container">
-        <input class="input_container_location" type="text" placeholder="TWCA, 1, Ashok Rd, Hanu">
-        <input class="input_container_search" type="text" placeholder="Search for a restaurant, cuisine or a dish">
-      </div>
-    </div>
-  </section>
-  <!-- ==============================WE OFFER SECTION======================================================= -->
 
-  <section class="container we_offer">
+      <div class="hero__section_container_input">
 
-    <div class="we_offer__card">
-      <img src="images/item1.png" alt="">
-      <div class="we__offer_content">
-        <h2>Order Online</h2>
-        <p>Stay home and order to your doorstep</p>
-      </div>
-    </div>
+        <div class="input_location">
+          <i class="fa-solid fa-location-dot"></i>
+          <input type="text" name="location" placeholder="Mumbai">
+        </div>
 
-    <div class="we_offer__card">
-      <img src="images/item2.png" alt="">
-      <div class="we__offer_content">
-        <h2>Dining</h2>
-        <p>View the city's favorite dining venues</p>
-      </div>
-    </div>
+        <div class="input_search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" name="search" placeholder="Search for a restaurant, cuisine or a dish">
+        </div>
 
-    <div class="we_offer__card">
-      <img src="images/item3.png" alt="">
-      <div class="we__offer_content">
-        <h2>Nightlife and Clubs</h2>
-        <p>Explore the city's top nightlife outlets</p>
       </div>
-    </div>
   </section>
 
-  <!-- ==============================COLLECTION SECTION======================================================= -->
+  <section class="container__main">
 
-  <section class="container collections">
-    <h1>Collections</h1>
-    <div class="sub__heading_container">
-      <span>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</span>
-      <span>All collections in Mumbai</span>
-    </div>
+    <!-- ====================================WE OFFER SECTION======================================================= -->
 
-    <div class="collections_card_container">
-      <div class="card card1">
-        <div class="overlay"></div>
-        <div class="content">
-          <h4>Live Cricket Screening</h4>
-          <span>58 Places</span>
-        </div>
-      </div>
+    <section class="container__section">
+      <div class="container_we_offer">
 
-      <div class="card card2">
-        <div class="overlay"></div>
-        <div class="content">
-          <h4>Ramadan Special</h4>
-          <span>22 Places</span>
-        </div>
-      </div>
-
-      <div class="card card3">
-        <div class="overlay"></div>
-        <div class="content">
-          <h4>Newly Opened</h4>
-          <span>100 Places</span>
-        </div>
-      </div>
-
-      <div class="card card4">
-        <div class="overlay"></div>
-        <div class="content">
-          <h4>Trending This Week</h4>
-          <span>30 Places</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==============================POPULAR LOCATION SECTION======================================================= -->
-
-  <section class="container__popularloc">
-
-    <h1>Popular localities in and around Mumbai</h1>
-    <div class="container__popularloc_contains">
-
-      <div class="popularloc L1">
-        <div class="L1 Lp11">
-          <h3>Lower Parel</h3>
-          <p>775 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L2">
-        <div class="L2 Lp22">
-          <h3>Borivali West</h3>
-          <p>1137 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L3">
-        <div class="L3 Lp33">
-          <h3>Fort</h3>
-          <p>361 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L4">
-        <div class="L4 Lp44">
-          <h3>Powai</h3>
-          <p>930 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L5">
-        <div class="L5 Lp55">
-          <h3>Bandra Kurla Complex</h3>
-          <p>202 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L6">
-        <div class="L6 Lp66">
-          <h3>Juhu</h3>
-          <p>425 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L7">
-        <div class="L7 Lp77">
-          <h3>Malad West</h3>
-          <p>1800 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L8">
-        <div class="L8 Lp88">
-          <h3>Vashi</h3>
-          <p>969 places</p>
-        </div>
-        <div class="popularloc icons">
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-      <div class="popularloc L9">
-        <div class="L9 Lp99">
-          <h3>see more</h3>
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ==============================GET_THE_APP SECTION======================================================= -->
-
-  <section class="container get__the_app">
-
-    <div class="semiContainer">
-
-      <div class="left">
-        <img src="images/mobileBanner.png" alt="">
-      </div>
-
-
-
-      <div class="right">
-
-        <h1>Get the zomato app</h1>
-        <p>We will send you a link open it on your phone to download the app</p>
-
-        <div class="radio__buttons_container">
-
-          <div>
-            <input type="radio" id="email" name="download_app">
-            <label for="email" style="font-size: 14px">Email</label>
-
-            <input type="radio" id="phone" name="download_app">
-            <label for="phone" style="font-size: 14px">Phone</label>
+        <div class="we_offer_card">
+          <img src="images/item1.png" />
+          <div class="we_offer_content">
+            <h2>Order Online</h2>
+            <p>Stay home and order to your doorstep</p>
           </div>
         </div>
 
-        <div class="input_container">
-          <input type="email" placeholder="email">
-          <button>Share App Link</button>
+        <div class="we_offer_card">
+          <img src="images/item2.png" />
+          <div class="we_offer_content">
+            <h2>Dining</h2>
+            <p>View the city's favourite dining venues</p>
+          </div>
         </div>
 
-        <div class="download__app_container">
-          <h5>Download App From</h5>
-          <div><img src="images/appleStore.png" alt=""></div>
-          <div><img src="images/playStore.png" alt=""></div>
+        <div class="we_offer_card">
+          <img src="images/item3.png" />
+          <div class="we_offer_content">
+            <h2>Nightlife and Clubs</h2>
+            <p>Explore the city's top nightlife outlets</p>
+          </div>
         </div>
 
       </div>
+    </section>
+
+    <!-- ====================================COLLECTION SECTION=====================================================-->
 
 
-    </div>
+    <section class="collection__section">
+      <h1>Collections</h1>
+      <div class="collection__span">
+        <span>Explore curated lists of top restaurants, cafes, pub, and bars in Mumbai, based on trends</span>
+        <span>All collection in Mumbai</span>
+      </div>
+      <div class="collection__card_container">
 
+        <div class="collection__card c11">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>75th Independence Special</h4>
+            <p>21 Places</p>
+          </div>
+        </div>
+        <div class="collection__card c12">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>Newly Opened</h4>
+            <p>41 Places</p>
+          </div>
+        </div>
+        <div class="collection__card c13">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>Best of Mumbai</h4>
+            <p>174 Places</p>
+          </div>
+        </div>
+        <div class="collection__card c14">
+          <div class="overlay"></div>
+          <div class="collection__card_content">
+            <h4>Trending This Week</h4>
+            <p>30 Places</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================POPULAR PLACES SECTION================================================ -->
+
+    <section class="container__popularloc">
+      <h1>Popular localities in and around Mumbai</h1>
+      <div class="container__popularloc_contains">
+
+        <div class="popularloc L1">
+          <div class="L1 Lp11">
+            <h3>lower Parel</h3>
+            <p>775 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L2">
+          <div class="L2 Lp22">
+            <h3>Borivali West</h3>
+            <p>1137 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L3">
+          <div class="L3 Lp33">
+            <h3>Fort</h3>
+            <p>361 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L4">
+          <div class="L4 Lp44">
+            <h3>Powai</h3>
+            <p>930 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L5">
+          <div class="L5 Lp55">
+            <h3>Bandra Kurla Complex</h3>
+            <p>202 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L6">
+          <div class="L6 Lp66">
+            <h3>Juhu</h3>
+            <p>425 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L7">
+          <div class="L7 Lp77">
+            <h3>Malad West</h3>
+            <p>1800 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L8">
+          <div class="L8 Lp88">
+            <h3>Vashi</h3>
+            <p>969 places</p>
+          </div>
+          <div class="popularloc icons">
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+        <div class="popularloc L9">
+          <div class="L9 Lp99">
+            <h3>see more</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================GET THE ZOMATO APP SECTION============================================= -->
+
+    <section class="container__app">
+      <div class="container__app_contain">
+        <div class="left">
+          <img src="images/mobileBanner.png" alt="AppBanner" />
+        </div>
+
+        <div class="right">
+          <h1>Get the Zomato app</h1>
+          <p>We will send you a link, open it on your phone to download the app</p>
+
+          <div class="radiobutton">
+            <div>
+              <input type="radio" id="email" name="option" />
+              <label for="email" style="font-size: 17px;">Email</label>
+            </div>
+            <div>
+              <input type="radio" id="phone" name="option" />
+              <label for="phone" style="font-size: 17px;">Phone</label>
+            </div>
+          </div>
+
+          <div class="inputtext">
+            <input type="text" style="font-size: 17px;" placeholder="Email"></input>
+            <button>Share App Link</button>
+          </div>
+
+          <div class="downloadimg">
+            <h5>Download app from</h5>
+            <div>
+              <img src="images/playStore.png" alt="Playstore" />
+              <img src="images/appleStore.png" alt="IOS" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================EXPLORE SECTION======================================================== -->
+
+    <section class="container__explore_main">
+      <h1>Explore options near me</h1>
+      <div class="container__explore_contains">
+        <div class="container__explore e1">
+          <div class="eeblocks e11">
+            <h3>Popular cuisines near me</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <p class="explore_desc ed1">
+            Bakery food near me - Beverages food near me - Biryani food near me - Burger food near me - Chinese food
+            near me - Desserts food near me - Ice Cream food near me - Kebab food near me - Maharashtrian food near me -
+            Momos food near me - Mughlai food near me - North Indian food near me - Pizza food near me - Rolls food near
+            me - Sandwich food near me - Seafood food near me - Shake food near me - Sichuan food near me - South Indian
+            food near me - Street food near me
+          </p>
+        </div>
+
+        <div class="container__explore e2">
+          <div class="eeblocks e22">
+            <h3>Popular restaurant types near me</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <p class="explore_desc ed2">
+            Cafés near me - Casual Dining near me - Quick Bites near me</p>
+        </div>
+
+        <div class="container__explore e3">
+          <div class="eeblocks e33">
+            <h3>Cities We Deliver To</h3>
+            <i class="fa-solid fa-circle-chevron-down"></i>
+          </div>
+          <div class="explore_desc ed3">
+            <a href="#">Hyderabad</a>
+            <a href="#">Mumbai</a>
+            <a href="#">DelhiNCR</a>
+            <a href="#">Kolkata</a>
+            <a href="#">Bengaluru</a>
+            <a href="#">Pune</a>
+            <a href="#">Gangtok</a>
+            <a href="#">Kochi</a>
+            <a href="#">Jaipur</a>
+            <a href="#">Ahmedabad</a>
+            <a href="#">Chandigarh</a>
+            <a href="#">Goa</a>
+            <a href="#">Indore</a>
+            <a href="#">Lucknow</a>
+            <a href="#">Chennai</a>
+            <a href="#">Nashik</a>
+            <a href="#">Ooty</a>
+            <a href="#">Shimla</a>
+            <a href="#">Ludhiana</a>
+            <a href="#">Guwahati</a>
+            <a href="#">Amritsar</a>
+            <a href="#">Kanpur</a>
+            <a href="#">Allahabad</a>
+            <a href="#">Aurangabad</a>
+            <a href="#">Bhopal</a>
+            <a href="#">Ranchi</a>
+            <a href="#">Visakhapatnam</a>
+            <a href="#">Bhubaneswar</a>
+            <a href="#">Coimbatore</a>
+            <a href="#">Mangalore</a>
+            <a href="#">Vadodara</a>
+            <a href="#">Nagpur</a>
+            <a href="#">Agra</a>
+            <a href="#">Dehradun</a>
+            <a href="#">Mysore</a>
+            <a href="#">Puducherry</a>
+            <a href="#">Surat</a>
+            <a href="#">Varanasi</a>
+            <a href="#">Patna</a>
+            <a href="#">Udaipur</a>
+            <a href="#">Khajuraho</a>
+            <a href="#">Neemrana</a>
+            <a href="#">Cuttack</a>
+            <a href="#">Trivandrum</a>
+            <a href="#">Haridwar</a>
+            <a href="#">Leh</a>
+            <a href="#">Pushkar</a>
+            <a href="#">Rajkot</a>
+            <a href="#">Kozhikode</a>
+            <a href="#">Alappuzha</a>
+            <a href="#">Thrissur</a>
+            <a href="#">Manipal</a>
+            <a href="#">Vijayawada</a>
+            <a href="#">Jodhpur</a>
+            <a href="#">Kota</a>
+            <a href="#">Ajmer</a>
+            <a href="#">Mussoorie</a>
+            <a href="#">Rishikesh</a>
+            <a href="#">Jalandhar</a>
+            <a href="#">Jammu</a>
+            <a href="#">Manali</a>
+            <a href="#">Dharamshala</a>
+            <a href="#">Madurai</a>
+            <a href="#">Raipur</a>
+            <a href="#">See more</a>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- ====================================FOOTER SECTION========================================================= -->
+
+    <footer class="footer__section">
+      <div class="footer__section1">
+        <img src="images/logo.png" alt="Zomatologo" />
+        <div class="footer__section1_buttons">
+          <button>
+            <img src="https://flagcdn.com/w40/in.png" alt="IndianFlag" style="width: 17px;" />
+            India
+            <div class="button_darrows"><i class="fa-solid fa-circle-chevron-down"></i></div>
+          </button>
+          <button>
+            <i class="fa fa-globe "></i>
+            English
+            <div class="button_darrows"><i class="fa-solid fa-circle-chevron-down"></i></div>
+          </button>
+        </div>
+      </div>
+      <div class="navigation__container">
+        <div class="link_container">
+          <h5>ABOUT ZOMATO</h5>
+          <a class="footer_link" href="#">Who We Are</a>
+          <a class="footer_link" href="#">Blog</a>
+          <a class="footer_link" href="#">Work Wit Us</a>
+          <a class="footer_link" href="#">Investor Relations</a>
+          <a class="footer_link" href="#">Report Fraud</a>
+          <a class="footer_link" href="#">Contact Us</a>
+        </div>
+        <div class="link_container">
+          <h5>ZOMAVERSE</h5>
+          <a class="footer_link" href="#">Zomato</a>
+          <a class="footer_link" href="#">Feeding India</a>
+          <a class="footer_link" href="#">Hyperpure</a>
+          <a class="footer_link" href="#">Zomaland</a>
+        </div>
+        <div class="link_container">
+          <h5>FOR RESTAURANTS</h5>
+          <a class="footer_link" href="#">Partner With Us</a>
+          <a class="footer_link" href="#">Apps For You</a>
+        </div>
+        <div class="link_container">
+          <h5>FOR ENTERPRISES</h5>
+          <a class="footer_link" href="#">Zomato For Work</a>
+        </div>
+        <div class="link_container">
+          <h5>LEARN MORE</h5>
+          <a class="footer_link" href="#">Privacy</a>
+          <a class="footer_link" href="#">Security</a>
+          <a class="footer_link" href="#">Terms</a>
+          <a class="footer_link" href="#">Sitemap</a>
+        </div>
+        <div class="link_container">
+          <h5>SOCIAL LINKS</h5>
+          <div class="social_links">
+            <button><i class="fa-brands fa-linkedin-in"></i></button>
+            <button><i class="fa-brands fa-instagram"></i></button>
+            <button><i class="fa-brands fa-twitter"></i></button>
+            <button><i class="fa-brands fa-youtube"></i></button>
+            <button><i class="fa-brands fa-facebook"></i></button>
+          </div>
+          <div class="footer_downloadlogos">
+            <img src="images/appleStore.png" alt="IOS" />
+            <img src="images/playStore.png" alt="Playstore" />
+          </div>
+        </div>
+      </div>
+      <div class="disclaimer">
+        <span>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Provacy Policy and Content
+          Policies. All trademarks are properties of their respective owners 2009-2022 © Zomato™ Ltd. All rights
+          reserved.</span>
+      </div>
+    </footer>
+
+    <!-- =========================================================================================================== -->
   </section>
-
-
-  <!-- ==============================  EXPLORE SECTION======================================================= -->
-
-  <section class="container__explore_main">
-
-    <h1>Explore options near me</h1>
-    <div class="container__explore_contains">
-      <div class="container__explore e1">
-        <div class="eeblocks e11">
-          <h3>Popular cuisines near me</h3>
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-
-        <p class="explore_desc ed1">
-          Bakery food near me - Beverages food near me - Biryani food near me - Burger food near me - Chinese food near
-          me - Desserts food near me - Ice Cream food near me - Kebab food near me - Maharashtrian food near me - Momos
-          food near me - Mughlai food near me - North Indian food near me - Pizza food near me - Rolls food near me -
-          Sandwich food near me - Seafood food near me - Shake food near me - Sichuan food near me - South Indian food
-          near me - Street food near me
-        </p>
-      </div>
-
-      <div class="container__explore e2">
-        <div class="eeblocks e22">
-          <h3>Popular restaurant types near me</h3>
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-        <p class="explore_desc ed2">
-          Cafés near me - Casual Dining near me - Quick Bites near me</p>
-      </div>
-
-      <div class="container__explore e3">
-        <div class="eeblocks e33">
-          <h3>Cities We Deliver To</h3>
-          <i class="fa-solid fa-circle-chevron-down"></i>
-        </div>
-        <div class="explore_desc ed3">
-          <a href="#">Hyderabad</a>
-          <a href="#">Mumbai</a>
-          <a href="#">DelhiNCR</a>
-          <a href="#">Kolkata</a>
-          <a href="#">Bengaluru</a>
-          <a href="#">Pune</a>
-          <a href="#">Gangtok</a>
-          <a href="#">Kochi</a>
-          <a href="#">Jaipur</a>
-          <a href="#">Ahmedabad</a>
-          <a href="#">Chandigarh</a>
-          <a href="#">Goa</a>
-          <a href="#">Indore</a>
-          <a href="#">Lucknow</a>
-          <a href="#">Chennai</a>
-          <a href="#">Nashik</a>
-          <a href="#">Ooty</a>
-          <a href="#">Shimla</a>
-          <a href="#">Ludhiana</a>
-          <a href="#">Guwahati</a>
-          <a href="#">Amritsar</a>
-          <a href="#">Kanpur</a>
-          <a href="#">Allahabad</a>
-          <a href="#">Aurangabad</a>
-          <a href="#">Bhopal</a>
-          <a href="#">Ranchi</a>
-          <a href="#">Visakhapatnam</a>
-          <a href="#">Bhubaneswar</a>
-          <a href="#">Coimbatore</a>
-          <a href="#">Mangalore</a>
-          <a href="#">Vadodara</a>
-          <a href="#">Nagpur</a>
-          <a href="#">Agra</a>
-          <a href="#">Dehradun</a>
-          <a href="#">Mysore</a>
-          <a href="#">Puducherry</a>
-          <a href="#">Surat</a>
-          <a href="#">Varanasi</a>
-          <a href="#">Patna</a>
-          <a href="#">Udaipur</a>
-          <a href="#">Khajuraho</a>
-          <a href="#">Neemrana</a>
-          <a href="#">Cuttack</a>
-          <a href="#">Trivandrum</a>
-          <a href="#">Haridwar</a>
-          <a href="#">Leh</a>
-          <a href="#">Pushkar</a>
-          <a href="#">Rajkot</a>
-          <a href="#">Kozhikode</a>
-          <a href="#">Alappuzha</a>
-          <a href="#">Thrissur</a>
-          <a href="#">Manipal</a>
-          <a href="#">Vijayawada</a>
-          <a href="#">Jodhpur</a>
-          <a href="#">Kota</a>
-          <a href="#">Ajmer</a>
-          <a href="#">Mussoorie</a>
-          <a href="#">Rishikesh</a>
-          <a href="#">Jalandhar</a>
-          <a href="#">Jammu</a>
-          <a href="#">Manali</a>
-          <a href="#">Dharamshala</a>
-          <a href="#">Madurai</a>
-          <a href="#">Raipur</a>
-          <a href="#">See more</a>
-        </div>
-      </div>
-
-    </div>
-    </div>
-  </section>
-
-  <!-- ==============================FOOTER SECTION======================================================= -->
-
-  <footer class="container footer">
-
-    <div class="footer_section1">
-      <img src="images/logo.png" alt="" />
-      <div class="section1__buttonContainer">
-        <button>
-          <img src="https://flagcdn.com/w40/in.png" alt="indian flag" style="width: 17px" />India
-        </button>
-        <button><i class="fa fa-globe"></i>English</button>
-      </div>
-    </div>
-
-
-    <div class="navigation_container">
-      <div class="link__container">
-        <h5>ABOUT ZOMATO</h5>
-        <a class="footer__link" href="#">Who we are</a>
-        <a class="footer__link" href="#">Blogs</a>
-        <a class="footer__link" href="#">Work with us</a>
-        <a class="footer__link" href="#">Investor Relations</a>
-        <a class="footer__link" href="#">Report Fraud</a>
-      </div>
-
-      <div class="link__container">
-        <h5>ZOMAVERSE</h5>
-        <a class="footer__link" href="#">Zomato</a>
-        <a class="footer__link" href="#">Feeding India</a>
-        <a class="footer__link" href="#">Hyperpure</a>
-        <a class="footer__link" href="#">Zomaland</a>
-      </div>
-
-      <div class="link__container">
-        <h5>FOR RESTAURANTS</h5>
-        <a class="footer__link" href="#">Partner With Us</a>
-        <a class="footer__link" href="#">Apps For You</a>
-        <br />
-        <h5>FOR ENTERPRICES</h5>
-        <a class="footer__link" href="#">Zomato For Work</a>
-      </div>
-
-      <div class="link__container">
-        <h5>Learn More</h5>
-        <a class="footer__link" href="#">Privacy</a>
-        <a class="footer__link" href="#">Security</a>
-        <a class="footer__link" href="#">Terms</a>
-        <a class="footer__link" href="#">Sitemap</a>
-      </div>
-
-      <div class="link__container">
-        <h5>SOCIAL LINKS</h5>
-        <div class="social__links_container">
-          <button><i class="fa-brands fa-linkedin-in"></i></button>
-          <button><i class="fa-brands fa-instagram"></i></button>
-          <button><i class="fa-brands fa-twitter"></i></button>
-          <button><i class="fa-brands fa-youtube"></i></button>
-          <button><i class="fa-brands fa-facebook"></i></button>
-        </div>
-        <br />
-        <img src="images/appleStore.png" alt="" class="footer__section_logos" />
-        <img src="images/playStore.png" alt="" class="footer__section_logos" />
-      </div>
-
-    </div>
-
-
-    <div class="disclamer">
-      By continuing past this page, you agree to our Terms of Service, Cookie
-      Policy, Privacy Policy and Content Policies. All trademarks are
-      properties of their respective owners. 2008-2022 © Zomato™ Ltd. All
-      rights reserved.
-    </div>
-  </footer>
-
-  <!-- ========================================================================================================= -->
 </body>
 
 </html>
