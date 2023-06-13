@@ -1,2 +1,1 @@
-
-A replica of the Zomato landing page created using HTML and CSS. This project mimics the design and layout of the original Zomato page, showcasing various food options and providing a user-friendly interface for exploring restaurants and menus.
+Zomato Landing Page Clone: A simple HTML and CSS project that recreates the Zomato landing page. It features a user-friendly interface and responsive design.
